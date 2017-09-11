@@ -78,6 +78,7 @@
     <Compile Include="Character.vb" />
     <Compile Include="Debug.vb" />
     <Compile Include="Functions.vb" />
+    <Compile Include="NetworkManager.vb" />
     <Compile Include="PlayerCharacter.vb" />
     <Compile Include="WorldObject.vb" />
     <Compile Include="Viewport.vb">

@@ -6,30 +6,35 @@ Byte
 </name>
 </assembly>
 <members>
+<member name="T:Byte.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
 <member name="P:Byte.My.Resources.Resources.ResourceManager">
-	<summary>
+<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
-</member><member name="P:Byte.My.Resources.Resources.Culture">
-	<summary>
+</member>
+<member name="P:Byte.My.Resources.Resources.Culture">
+<summary>
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
-</member><member name="P:Byte.My.Resources.Resources.background_large_A">
-	<summary>
+</member>
+<member name="P:Byte.My.Resources.Resources.background_large_A">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Byte.My.Resources.Resources.background_large_B">
-	<summary>
+</member>
+<member name="P:Byte.My.Resources.Resources.background_large_B">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Byte.My.Resources.Resources.background_large_C">
-	<summary>
+</member>
+<member name="P:Byte.My.Resources.Resources.background_large_C">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="T:Byte.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
 </member>
 </members>

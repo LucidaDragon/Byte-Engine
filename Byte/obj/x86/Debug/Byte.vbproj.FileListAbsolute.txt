@@ -16,3 +16,14 @@ C:\Users\Prof_enderboss\documents\visual studio 2010\Projects\Byte\Byte\bin\Debu
 C:\Users\Prof_enderboss\documents\visual studio 2010\Projects\Byte\Byte\obj\x86\Debug\Byte.Window.resources
 C:\Users\Prof_enderboss\documents\visual studio 2010\Projects\Byte\Byte\obj\x86\Debug\Byte.Resources.resources
 C:\Users\Prof_enderboss\documents\visual studio 2010\Projects\Byte\Byte\obj\x86\Debug\Byte.vbproj.GenerateResource.Cache
+C:\Users\sgarland\Desktop\byte-engine\Byte\bin\Debug\Byte.exe
+C:\Users\sgarland\Desktop\byte-engine\Byte\bin\Debug\Byte.pdb
+C:\Users\sgarland\Desktop\byte-engine\Byte\bin\Debug\Byte.xml
+C:\Users\sgarland\Desktop\byte-engine\Byte\obj\x86\Debug\Byte.vbprojResolveAssemblyReference.cache
+C:\Users\sgarland\Desktop\byte-engine\Byte\obj\x86\Debug\Byte.Window.resources
+C:\Users\sgarland\Desktop\byte-engine\Byte\obj\x86\Debug\Byte.Resources.resources
+C:\Users\sgarland\Desktop\byte-engine\Byte\obj\x86\Debug\Byte.vbproj.GenerateResource.Cache
+C:\Users\sgarland\Desktop\byte-engine\Byte\obj\x86\Debug\Byte.vbproj.CoreCompileInputs.cache
+C:\Users\sgarland\Desktop\byte-engine\Byte\obj\x86\Debug\Byte.exe
+C:\Users\sgarland\Desktop\byte-engine\Byte\obj\x86\Debug\Byte.xml
+C:\Users\sgarland\Desktop\byte-engine\Byte\obj\x86\Debug\Byte.pdb
