@@ -1,0 +1,18 @@
+C:\Users\Prof_enderboss\AppData\Local\Temporary Projects\Byte\bin\Debug\Byte.exe
+C:\Users\Prof_enderboss\AppData\Local\Temporary Projects\Byte\bin\Debug\Byte.pdb
+C:\Users\Prof_enderboss\AppData\Local\Temporary Projects\Byte\bin\Debug\Byte.xml
+C:\Users\Prof_enderboss\AppData\Local\Temporary Projects\Byte\obj\x86\Debug\Byte.Window.resources
+C:\Users\Prof_enderboss\AppData\Local\Temporary Projects\Byte\obj\x86\Debug\Byte.Resources.resources
+C:\Users\Prof_enderboss\AppData\Local\Temporary Projects\Byte\obj\x86\Debug\Byte.vbproj.GenerateResource.Cache
+C:\Users\Prof_enderboss\AppData\Local\Temporary Projects\Byte\obj\x86\Debug\Byte.exe
+C:\Users\Prof_enderboss\AppData\Local\Temporary Projects\Byte\obj\x86\Debug\Byte.xml
+C:\Users\Prof_enderboss\AppData\Local\Temporary Projects\Byte\obj\x86\Debug\Byte.pdb
+C:\Users\Prof_enderboss\documents\visual studio 2010\Projects\Byte\Byte\obj\x86\Debug\Byte.exe
+C:\Users\Prof_enderboss\documents\visual studio 2010\Projects\Byte\Byte\obj\x86\Debug\Byte.xml
+C:\Users\Prof_enderboss\documents\visual studio 2010\Projects\Byte\Byte\obj\x86\Debug\Byte.pdb
+C:\Users\Prof_enderboss\documents\visual studio 2010\Projects\Byte\Byte\bin\Debug\Byte.exe
+C:\Users\Prof_enderboss\documents\visual studio 2010\Projects\Byte\Byte\bin\Debug\Byte.pdb
+C:\Users\Prof_enderboss\documents\visual studio 2010\Projects\Byte\Byte\bin\Debug\Byte.xml
+C:\Users\Prof_enderboss\documents\visual studio 2010\Projects\Byte\Byte\obj\x86\Debug\Byte.Window.resources
+C:\Users\Prof_enderboss\documents\visual studio 2010\Projects\Byte\Byte\obj\x86\Debug\Byte.Resources.resources
+C:\Users\Prof_enderboss\documents\visual studio 2010\Projects\Byte\Byte\obj\x86\Debug\Byte.vbproj.GenerateResource.Cache
