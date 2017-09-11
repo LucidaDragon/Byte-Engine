@@ -14,4 +14,9 @@
         End While
         Return System.Text.Encoding.ASCII.GetChars(buffer)
     End Function
+
+    Public Sub SyncCharacterData(server As Net.IPAddress)
+        Client.Connect(New Net.IPEndPoint(server, 65452))
+        SendString("Fetch data.")
+    End Sub
 End Class
