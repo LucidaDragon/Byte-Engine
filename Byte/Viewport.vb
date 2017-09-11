@@ -24,7 +24,7 @@
         Protected Property img As Image
             Set(value As Image)
                 i = value
-                b = New Region(New Rectangle(l, i.Size))
+                b = New Rectangle(l, i.Size)
             End Set
             Get
                 Return i
@@ -35,7 +35,7 @@
         Protected Property loc As Point
             Set(value As Point)
                 l = value
-                b = New Region(New Rectangle(l, i.Size))
+                b = New Rectangle(l, i.Size)
             End Set
             Get
                 Return l
@@ -43,12 +43,12 @@
         End Property
         Private l As Point
 
-        ReadOnly Property Bounds As Region
+        ReadOnly Property Bounds As Rectangle
             Get
                 Return b
             End Get
         End Property
-        Private b As Region
+        Private b As Rectangle
 
         Sub New(parent As Viewport, sprite As Image, location As Point)
             img = sprite
@@ -61,10 +61,10 @@
         End Sub
 
         Public Function IsOverlapping(obj As DrawCall) As Boolean
-            Return Bounds.GetBounds(Graphics.FromImage(New Bitmap(Parent.Width, Parent.Height))).IntersectsWith(obj.Bounds.GetBounds(Graphics.FromImage(New Bitmap(Parent.Width, Parent.Height))))
+            Return Bounds.IntersectsWith(obj.Bounds)
         End Function
 
-        Public Sub BlockingUpdate(otherCalls As List(Of DrawCall))
+        Public Sub BlockingUpdate(otherCalls As List(Of DrawCall)) 'To work on
             IsVisible = True
         End Sub
     End Class
@@ -75,14 +75,12 @@
         BlockingObjs.Reverse()
         For Each obj In WorldObjects
             obj.BlockingUpdate(BlockingObjs)
-            Dim tempSurface As New Bitmap(16, 16)
-            Dim myBounds As RectangleF = obj.Bounds.GetBounds(Graphics.FromImage(tempSurface))
-            If ((myBounds.X <= Width And myBounds.X + myBounds.Width >= 0) Or (myBounds.Y <= Height And myBounds.Y + myBounds.Height >= 0)) And obj.IsVisible Then
+            If obj.IsVisible Then
                 DrawCalls.Add(obj)
             End If
-            tempSurface.Dispose()
         Next
         GC.Collect()
+        Debug.Print(DrawCalls.Count)
     End Sub
 
     Sub MoveCamera(direction As Point)
