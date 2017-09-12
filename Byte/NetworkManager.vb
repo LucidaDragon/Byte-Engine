@@ -1,4 +1,6 @@
 ﻿Public Class NetworkManager
+    Public Const Port As Integer = 65452
+
     Private Client As Net.Sockets.TcpClient
 
     Private Sub SendString(str As String)
@@ -16,7 +18,14 @@
     End Function
 
     Public Sub SyncCharacterData(server As Net.IPAddress)
-        Client.Connect(New Net.IPEndPoint(server, 65452))
-        SendString("Fetch data.")
+        Client.Connect(New Net.IPEndPoint(server, Port + New Random().Next(0, 10)))
+        SendString(Window.LocalPlayer.ToString)
+        Window.NetworkPlayers.Clear()
+        While Client.Connected
+            If Client.GetStream.DataAvailable Then
+                Window.NetworkPlayers.Add(PlayerCharacter.FromString(ReadString(), Window.Viewport1))
+            End If
+            Application.DoEvents()
+        End While
     End Sub
 End Class
